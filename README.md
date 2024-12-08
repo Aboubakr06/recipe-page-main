@@ -26,7 +26,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/)
-- Live Site URL: [Live Site]()
+- Live Site URL: [Live Site](https://funny-boba-d16c1f.netlify.app/)
 
 ## My process
 
