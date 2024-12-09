@@ -94,7 +94,7 @@ body {
     color: var(--clr-stone-600);
 }
 
-main {
+article {
     background-color: var(--clr-neutral-100);
 }
 .container {
@@ -150,6 +150,7 @@ main {
 
 .section3 h2, .section4 h2, .section5 h2{
     font-family: var(--ff-primary);
+    font-weight: var(--fw-base);
     color: var(--clr-brown-800);
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -213,14 +214,14 @@ hr {
     main {
         display: flex;
         align-items: center;
-        justify-self: center;
-        width: 45rem;
-        margin: 5rem 0;
-        border-radius: 1rem;
+        justify-content: center;
     }
 
     article {
         padding: 1rem;
+        border-radius: 1rem;
+        width: 45rem;
+        margin: 2rem;
     }
 
     article img {
