@@ -90,12 +90,15 @@ body {
     font-size: 16px;
     font-family: var(--ff-base);
     font-weight: var(--fw-base);
-    background-color: var(--clr-neutral-100);
+    background-color: var(--clr-rose-50);
     color: var(--clr-stone-600);
 }
 
+main {
+    background-color: var(--clr-neutral-100);
+}
 .container {
-    padding: 1rem 1.5rem;
+    padding: 1rem 1.8rem;
 }
 
 .section1,
@@ -145,7 +148,7 @@ body {
     margin-left: 1rem;
 }
 
-.section3 h2{
+.section3 h2, .section4 h2, .section5 h2{
     font-family: var(--ff-primary);
     color: var(--clr-brown-800);
     font-size: 2rem;
@@ -165,15 +168,64 @@ body {
 }
 
 hr {
-    border: 0.5px solid var(--clr-stone-100);
+    border: 0.5px solid var(--clr-stone-150);
     margin: 2rem 0;
 }
+
+.section4 li{
+    list-style-type: decimal;
+    margin: 0rem 0rem 1rem 1.5rem;
+}
+
+.section4 li::marker {
+    font-weight: var(--fw-bold);
+    color: var(--clr-brown-800);
+}
+
+.section4 span {
+    font-weight: var(--fw-bolder);
+    margin-left: 1.5rem;
+}
+
+.section5 table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.section5 table tr {
+    border-bottom: 1px solid var(--clr-stone-150);
+}
+
+.section5 table tr:last-child {
+    border-bottom: none;
+}
+
+.section5 table td {
+    padding: 1rem;
+}
+
+.section5 table td:nth-child(2){
+    font-weight: var(--fw-bolder);
+    color: var(--clr-brown-800);
+}
+
 @media (min-width: 376px) {
-    .profile {
-        margin: 120px auto;
-        width: 25rem;
+    main {
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        width: 55%;
+        margin: 5rem 0;
+        border-radius: 1rem;
     }
 
+    article {
+        padding: 1rem;
+    }
+
+    article img {
+        border-radius: 1rem;
+    }
 }
  
  
